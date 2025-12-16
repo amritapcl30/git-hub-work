@@ -4,4 +4,17 @@
  git add .
  git commit -m "add testing file"
  git restore testing.py
-  
+   git status
+
+   git add .
+   git status
+   git commit -m "add Git command"
+   git status
+   clear
+   git remote add origin https://github.com/amritapcl30/git-hub-work.git
+   git remote -v
+   git push origin master
+   git remote set-url origin https://(from gitPAT)@github.com/amritapcl30/git-hub-work.git
+  git remote -v
+   clear
+   git push origin master
